@@ -6,9 +6,9 @@
 
 
 
-from openai import OpenAI
+from anthropic import Anthropic
 
-client = OpenAI()
+client = Anthropic()
 
 file = client.files.create(
     file = open("Parsing_PDF_using_LLM/sample.pdf","rb"),
