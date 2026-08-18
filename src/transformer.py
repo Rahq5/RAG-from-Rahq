@@ -15,4 +15,4 @@ sentences = [
 embeddings = model.encode(sentences)
 
 print(embeddings.shape)          # (4, 384) — 4 sentences, 384 dimensions each
-print(embeddings[:, :5])         # first 5 dimensions of each, just to peek
+print(embeddings[:, :5])         # first 5 dimensions of each, just to peekc
